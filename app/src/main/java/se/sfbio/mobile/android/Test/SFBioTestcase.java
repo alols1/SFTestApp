@@ -251,11 +251,6 @@ public class SFBioTestcase extends ActivityInstrumentationTestCase2 implements S
         final int NTIMES_MAX = 15;
         while (!solo.getCurrentViews(android.widget.ProgressBar.class).isEmpty() && t < NTIMES_MAX) {
             logging("There was a progress bar.");
-            ArrayList<View> test = solo.getCurrentViews();
-            for (View view : test) {
-                logging(view.toString());
-            }
-
             solo.sleep(5000);
             t++;
             if (t == NTIMES_MAX) {

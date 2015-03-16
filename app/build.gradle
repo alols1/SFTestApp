@@ -74,28 +74,4 @@ spoon {
      debug = true
 }
 
-//task myCopy(type: Copy) {
-//        from("build/outputs/apk")
-//        into('build/outputs/regression_apk')
-//       // include("*-release.apk")
-//}
-//
-//
-//task deleteTask(type: Delete) {
-//         delete fileTree(dir: "build/outputs/apk")
-//     //    delete "build/outputs/apk/app-Accept-release-test-unaligned.apk"
-// }
-//
-//ask myCopyRelease(type: Copy) {
-//    from('build/outputs/regression_apk')
-//    into('build/outputs/apk')
-//    //include("*-accept.apk")
-//}
-//
-//
-//task allTask(dependsOn: ['clean', 'assembleRelease', 'deleteTask', 'myCopy', 'myCopyRelease']){
-//      myCopy.mustRunAfter assembleRelease
-//      deleteTask.mustRunAfter myCopy
-//      myCopyRelease.mustRunAfter deleteTask
-//}
 
