@@ -1,0 +1,96 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "se.sfbio.mobile.android.Test"
+        minSdkVersion 8
+        targetSdkVersion 8
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_7
+            targetCompatibility JavaVersion.VERSION_1_7
+        }
+
+        testApplicationId "se.sfbio.mobile.android.Test.test"
+        testInstrumentationRunner "android.test.InstrumentationTestRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    productFlavors {
+        Accept {
+            applicationId "se.sfbio.mobile.android.Test.Accept"
+            versionName "1.0-Accept"
+        }
+        Production {
+            applicationId "se.sfbio.mobile.android.Test.Production"
+            versionName "1.0-Production"
+        }
+    }
+    sourceSets {
+        main {
+            java.srcDirs = ['src/main/java', 'src/Acceptance', 'src/main/Production', 'se.sfbio.mobile.andoid.Test/Production', 'app/java/Production']
+        }
+    }
+
+    if(project.hasProperty("MyProject.signing")
+            && new File(project.property("MyProject.signing") + ".gradle").exists()) {
+        apply from: project.property("MyProject.signing") + ".gradle";
+    }
+}
+
+dependencies {
+    compile 'com.jayway.android.robotium:robotium-solo:5.2.1'
+    compile files('libs/jackson-all-1.9.11.jar')
+    compile files('libs/SF Bio-json-client-updated.jar')
+    androidTestCompile 'com.squareup.spoon:spoon-client:1.1.1'
+}
+
+buildscript {
+        repositories {
+                 mavenCentral()
+             }
+        dependencies {
+             classpath 'com.stanfy.spoon:spoon-gradle-plugin:0.14.1'
+             classpath 'com.android.tools.build:gradle:1.0.0'
+        }
+    }
+
+ apply plugin: 'spoon'
+
+
+spoon {
+     debug = true
+}
+
+//task myCopy(type: Copy) {
+//        from("build/outputs/apk")
+//        into('build/outputs/regression_apk')
+//       // include("*-release.apk")
+//}
+//
+//
+//task deleteTask(type: Delete) {
+//         delete fileTree(dir: "build/outputs/apk")
+//     //    delete "build/outputs/apk/app-Accept-release-test-unaligned.apk"
+// }
+//
+//ask myCopyRelease(type: Copy) {
+//    from('build/outputs/regression_apk')
+//    into('build/outputs/apk')
+//    //include("*-accept.apk")
+//}
+//
+//
+//task allTask(dependsOn: ['clean', 'assembleRelease', 'deleteTask', 'myCopy', 'myCopyRelease']){
+//      myCopy.mustRunAfter assembleRelease
+//      deleteTask.mustRunAfter myCopy
+//      myCopyRelease.mustRunAfter deleteTask
+//}
+

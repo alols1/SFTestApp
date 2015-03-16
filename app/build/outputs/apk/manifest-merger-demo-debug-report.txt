@@ -1,0 +1,52 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	package
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:5:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+uses-sdk
+ADDED from AndroidManifest.xml:7:5
+	android:targetSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:7:15
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+instrumentation#android.test.InstrumentationTestRunner
+ADDED from AndroidManifest.xml:9:5
+	android:targetPackage
+		ADDED from AndroidManifest.xml:11:9
+	android:name
+		ADDED from AndroidManifest.xml:10:9
+application
+ADDED from AndroidManifest.xml:13:5
+	android:label
+		ADDED from AndroidManifest.xml:15:9
+	android:icon
+		ADDED from AndroidManifest.xml:14:9
+uses-library#android.test.runner
+ADDED from AndroidManifest.xml:16:9
+	android:name
+		ADDED from AndroidManifest.xml:16:23
+dependency
+ADDED from AndroidManifest.xml:19:5
+groupId
+ADDED from AndroidManifest.xml:20:9
+artifactId
+ADDED from AndroidManifest.xml:21:9
+version
+ADDED from AndroidManifest.xml:22:9
+scope
+ADDED from AndroidManifest.xml:23:9

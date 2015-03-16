@@ -1,0 +1,4 @@
+C:\Users\tosve3\AndroidstudioProjects\SFBioTest\app\build\intermediates\classes\Accept\debug
+C:\Users\tosve3\AndroidstudioProjects\SFBioTest\app\build\intermediates\pre-dexed\Accept\debug\SF Bio-json-client-updated-2fca946d4349dbb57d497135e51821cb56a7a653.jar
+C:\Users\tosve3\AndroidstudioProjects\SFBioTest\app\build\intermediates\pre-dexed\Accept\debug\robotium-solo-5.2.1-8b3859e7ee489bfca6512faf11c5076d9b1487a2.jar
+C:\Users\tosve3\AndroidstudioProjects\SFBioTest\app\build\intermediates\pre-dexed\Accept\debug\jackson-all-1.9.11-db94e8a9b8c19c29feeddaa7d12aa46fb1676aec.jar

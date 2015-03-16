@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Users\tosve3\AndroidstudioProjects\SFBioTest\app\src\main\assets"/></dataSet><dataSet config="demo"><source path="C:\Users\tosve3\AndroidstudioProjects\SFBioTest\app\src\demo\assets"/></dataSet><dataSet config="debug"><source path="C:\Users\tosve3\AndroidstudioProjects\SFBioTest\app\src\debug\assets"/></dataSet><dataSet config="demoDebug"><source path="C:\Users\tosve3\AndroidstudioProjects\SFBioTest\app\src\demoDebug\assets"/></dataSet></merger>

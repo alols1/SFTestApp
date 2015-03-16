@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="se.sfbio.mobile.android.Test"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="8" />
+
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:targetPackage="se.sfbio.mobile.android" />
+
+    <dependency>
+        <groupId>
+org.glassfish.jersey.core
+        </groupId>
+
+        <artifactId>
+jersey-common
+        </artifactId>
+
+        <version>
+2.4.1
+        </version>
+
+        <scope>
+test
+        </scope>
+    </dependency>
+
+    <android:uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <uses-library android:name="android.test.runner" />
+
+        <activity
+            android:name="se.sfbio.mobile.android.Test.Accept.SecondActivity"
+            android:label="@string/title_activity_second" >
+        </activity>
+    </application>
+
+</manifest>

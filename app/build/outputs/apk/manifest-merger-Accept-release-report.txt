@@ -1,0 +1,74 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	package
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:5:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+uses-sdk
+ADDED from AndroidManifest.xml:7:5
+	android:targetSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:7:15
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+instrumentation#android.test.InstrumentationTestRunner
+ADDED from AndroidManifest.xml:9:5
+	android:targetPackage
+		ADDED from AndroidManifest.xml:11:9
+	android:name
+		ADDED from AndroidManifest.xml:10:9
+dependency
+ADDED from AndroidManifest.xml:13:5
+groupId
+ADDED from AndroidManifest.xml:14:9
+artifactId
+ADDED from AndroidManifest.xml:18:9
+version
+ADDED from AndroidManifest.xml:22:9
+scope
+ADDED from AndroidManifest.xml:26:9
+application
+ADDED from AndroidManifest.xml:33:5
+	android:label
+		ADDED from AndroidManifest.xml:35:9
+	android:icon
+		ADDED from AndroidManifest.xml:34:9
+uses-library#android.test.runner
+ADDED from AndroidManifest.xml:36:9
+	android:name
+		ADDED from AndroidManifest.xml:36:23
+activity#se.sfbio.mobile.android.Test.Accept.SecondActivity
+ADDED from AndroidManifest.xml:38:9
+	android:label
+		ADDED from AndroidManifest.xml:40:13
+	android:name
+		ADDED from AndroidManifest.xml:39:13
+android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:43:5
+	android:maxSdkVersion
+		ADDED from AndroidManifest.xml:45:9
+	android:name
+		ADDED from AndroidManifest.xml:44:9
+android:uses-permission#android.permission.READ_PHONE_STATE
+ADDED from AndroidManifest.xml:46:5
+	android:name
+		ADDED from AndroidManifest.xml:46:30
+android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:47:5
+	android:maxSdkVersion
+		ADDED from AndroidManifest.xml:49:9
+	android:name
+		ADDED from AndroidManifest.xml:48:9
