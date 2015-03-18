@@ -526,7 +526,7 @@ public class SFBioTestcase extends ActivityInstrumentationTestCase2 implements S
             solo.sleep(2000);
         }
         if (solo.searchText("Välj stad", 0, false)) {
-            solo.clickInList(1);
+            solo.clickOnText("Stockholm");
         }
     }
 
