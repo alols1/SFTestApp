@@ -126,7 +126,9 @@ public class SFBioTestcase extends ActivityInstrumentationTestCase2 implements S
         } finally {
             br.close();
         }
-
+        logging(settingsFile.get(0));
+        logging(settingsFile.get(1));
+        logging(settingsFile.get(2));
 
         // Reading test data.
         // Create and initialize the Data class.
@@ -140,10 +142,10 @@ public class SFBioTestcase extends ActivityInstrumentationTestCase2 implements S
         }
 
         // Put data in ArrayLists.
-        //cities = data.getCities();
-        //city = cities.get(0);
-        //Nyheter = data.getNewsHeadlines();
-        //bannerTitles = city.getPromotedMovies();
+        cities = data.getCities();
+        city = cities.get(0);
+        Nyheter = data.getNewsHeadlines();
+        bannerTitles = city.getPromotedMovies();
 
 //    		String cityName = city.getName();
 //    		logging(cityName);
