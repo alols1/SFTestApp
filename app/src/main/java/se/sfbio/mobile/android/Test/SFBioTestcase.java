@@ -126,8 +126,6 @@ public class SFBioTestcase extends ActivityInstrumentationTestCase2 implements S
         } finally {
             br.close();
         }
-        logging(settingsFile.get(0));
-        logging(settingsFile.get(1));
 
         // Reading test data.
         // Create and initialize the Data class.
