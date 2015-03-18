@@ -165,19 +165,19 @@ public class SFBioTestData {
         initCities();
 
         // Read the toplist for every city that is considered needed.
-        initToplists();
+        //initToplists();
 
         // Read the theatre list for every city that is considered needed.
-        initTheatreLists();
+        //initTheatreLists();
 
         // Read the news headlines from the database.
-        initNewsHeadlines();
+        //initNewsHeadlines();
 
         // Read the list of promoted movies for every city that is considered needed.
-        initPromotedMovies();
+        //initPromotedMovies();
 
         // Read the list of current movies for every city that is considered needed.
-        initCurrentMovies();
+       // initCurrentMovies();
     }
 
     /**

@@ -130,14 +130,14 @@ public class SFBioTestcase extends ActivityInstrumentationTestCase2 implements S
 
         // Reading test data.
         // Create and initialize the Data class.
-//        SFBioTestData data = new SFBioTestData(cities_to_test);
+        SFBioTestData data = new SFBioTestData(cities_to_test);
 ////    		SFBioTestData data = new SFBioTestData(new String[]{"Ystad"}); // <-- Use this constructor if you want to determine which cities to chose between.
-//        try {
-//            data.initData();
-//        } catch (IOException e) {
-//            reportError("DATABASE ERROR during test setup. Testcase = " + this.getClass().getSimpleName() + ", Error = " + e.toString());
-//            throw e;
-//        }
+        try {
+            data.initData();
+        } catch (IOException e) {
+            reportError("DATABASE ERROR during test setup. Testcase = " + this.getClass().getSimpleName() + ", Error = " + e.toString());
+            throw e;
+        }
 
         // Put data in ArrayLists.
         //cities = data.getCities();
