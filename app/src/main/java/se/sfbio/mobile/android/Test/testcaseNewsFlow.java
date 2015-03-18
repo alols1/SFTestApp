@@ -15,7 +15,6 @@ public class testcaseNewsFlow extends SFBioTestcase {
         solo.scrollToTop();
         checkItemsInListFromArray(Nyheter);
         reportSuccess();
-        reportSuccess();
     }
 
 }

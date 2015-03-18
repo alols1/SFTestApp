@@ -1,4 +1,4 @@
-package se.sfbop.mobile.andoid.Test.Production;
+package se.sfbio.mobile.android.Test;
 
 import android.view.View;
 
