@@ -142,8 +142,8 @@ public class SFBioTestcase extends ActivityInstrumentationTestCase2 implements S
         // Put data in ArrayLists.
         cities = data.getCities();
         city = cities.get(0);
-        Nyheter = data.getNewsHeadlines();
-        bannerTitles = city.getPromotedMovies();
+        //Nyheter = data.getNewsHeadlines();
+        //bannerTitles = city.getPromotedMovies();
 
 //    		String cityName = city.getName();
 //    		logging(cityName);
