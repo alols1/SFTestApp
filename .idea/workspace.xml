@@ -28,10 +28,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SFBioRESTClient.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SFBioRESTClient.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/se/sfbio/mobile/android/Test/SFBioRESTClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.59902793" vertical-offset="357" max-vertical-offset="4335">
+            <state vertical-scroll-proportion="-17.607143" vertical-offset="357" max-vertical-offset="4335">
               <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -50,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SFBioTestcase.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="SFBioTestcase.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/se/sfbio/mobile/android/Test/SFBioTestcase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.892858" vertical-offset="1668" max-vertical-offset="11101">
-              <caret line="121" column="33" selection-start-line="121" selection-start-column="33" selection-end-line="121" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.6691358" vertical-offset="1651" max-vertical-offset="11084">
+              <caret line="129" column="37" selection-start-line="129" selection-start-column="37" selection-end-line="129" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1798,8 +1798,8 @@
         <option value="$PROJECT_DIR$/app/src/main/java/se/sfbio/mobile/android/Test/TicketTestcase.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/se/sfbio/mobile/android/Test/SFBioTestData.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/se/sfbio/mobile/android/Test/SFBioTestcase.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/se/sfbio/mobile/android/Test/SFBioRESTClient.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/se/sfbio/mobile/android/Test/SFBioTestcase.java" />
       </list>
     </option>
   </component>
@@ -2876,6 +2876,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/sfbio/mobile/android/Test/SFBioRESTClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.607143" vertical-offset="357" max-vertical-offset="4335">
+          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/se/sfbio/mobile/android/Test/SFBioTestData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.928571" vertical-offset="2016" max-vertical-offset="10693">
@@ -2886,18 +2896,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/se/sfbio/mobile/android/Test/SFBioTestcase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.892858" vertical-offset="1668" max-vertical-offset="11101">
-          <caret line="121" column="33" selection-start-line="121" selection-start-column="33" selection-end-line="121" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/sfbio/mobile/android/Test/SFBioRESTClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59902793" vertical-offset="357" max-vertical-offset="4335">
-          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.6691358" vertical-offset="1651" max-vertical-offset="11084">
+          <caret line="129" column="37" selection-start-line="129" selection-start-column="37" selection-end-line="129" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
