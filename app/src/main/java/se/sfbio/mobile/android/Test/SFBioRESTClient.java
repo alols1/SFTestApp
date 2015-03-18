@@ -45,12 +45,11 @@ public final class SFBioRESTClient {
 
 
     // Info regarding REST client authentication / HTTP headers:
-    //private static final String USERNAME = SFBioTestcase.settingsFile.get(0);
+    private static final String USERNAME = SFBioTestcase.settingsFile.get(0);
     //"SFbioAPI";
-    //private static final String PASSWORD = SFBioTestcase.settingsFile.get(1);
+    private static final String PASSWORD = SFBioTestcase.settingsFile.get(1);
     //"bSF5PFHcR4Z3";
-    private static final String USERNAME = "SFbioAPI";
-    private static final String PASSWORD = "bSF5PFHcR4Z3";
+
     private static final Header[] HEADERS = {
             new BasicHeader("X-SF-Android-Version", "403"),
             new BasicHeader("Accept", "application/json")
