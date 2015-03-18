@@ -33,7 +33,8 @@ public final class SFBioRESTClient {
     // QUERY-specific info:
     // Example of query: "https://sfbm-acc-v4.cybercomhosting.com/services/4/movies/toplist?cityid=SE";
    // private static final String QUERY_START = SFBioTestcase.settingsFile.get(2);
-    private static final String QUERY_START = "https://mobilebackend.sfbio.se/services/4/";
+    //private static final String QUERY_START = "https://mobilebackend.sfbio.se/services/4/";
+    private static final String QUERY_START = SFBioTestcase.settingsFile.get(2);
     private static final String QUERY_TOPLIST_EXCEPT_CITY_ID = "movies/toplist?cityid=";
     private static final String QUERY_THEATRE_LIST_EXCEPT_CITY_ID = "theatres/";
     private static final String QUERY_CITIES = "cities";

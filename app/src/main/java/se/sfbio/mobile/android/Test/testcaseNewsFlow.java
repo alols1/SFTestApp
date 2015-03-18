@@ -11,7 +11,6 @@ public class testcaseNewsFlow extends SFBioTestcase {
     //Methods
     public void testNewsFlow() {
         waitForApplicationToStart();
-        reportError("Planned error.");
         goToNyheterTab();
         solo.scrollToTop();
         checkItemsInListFromArray(Nyheter);
