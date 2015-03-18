@@ -41,8 +41,8 @@
       <file leaf-file-name="SFBioTestData.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/se/sfbio/mobile/android/Test/SFBioTestData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45686513" vertical-offset="1868" max-vertical-offset="10693">
-              <caret line="167" column="10" selection-start-line="167" selection-start-column="10" selection-end-line="167" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.39489672" vertical-offset="1868" max-vertical-offset="10693">
+              <caret line="164" column="10" selection-start-line="164" selection-start-column="10" selection-end-line="164" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -2889,8 +2889,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/se/sfbio/mobile/android/Test/SFBioTestData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45686513" vertical-offset="1868" max-vertical-offset="10693">
-          <caret line="167" column="10" selection-start-line="167" selection-start-column="10" selection-end-line="167" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.39489672" vertical-offset="1868" max-vertical-offset="10693">
+          <caret line="164" column="10" selection-start-line="164" selection-start-column="10" selection-end-line="164" selection-end-column="10" />
           <folding />
         </state>
       </provider>
