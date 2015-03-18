@@ -1,4 +1,4 @@
-C:\Users\tosve3\AndroidstudioProjects\SFBioTest\app\build\intermediates\classes\Production\release
-C:\Users\tosve3\AndroidstudioProjects\SFBioTest\app\build\intermediates\pre-dexed\Production\release\SF Bio-json-client-updated-2fca946d4349dbb57d497135e51821cb56a7a653.jar
-C:\Users\tosve3\AndroidstudioProjects\SFBioTest\app\build\intermediates\pre-dexed\Production\release\robotium-solo-5.2.1-8b3859e7ee489bfca6512faf11c5076d9b1487a2.jar
-C:\Users\tosve3\AndroidstudioProjects\SFBioTest\app\build\intermediates\pre-dexed\Production\release\jackson-all-1.9.11-db94e8a9b8c19c29feeddaa7d12aa46fb1676aec.jar
+C:\Users\tosve3\AndroidstudioProjects\SFTestApplication\app\build\intermediates\classes\Production\release
+C:\Users\tosve3\AndroidstudioProjects\SFTestApplication\app\build\intermediates\pre-dexed\Production\release\SF Bio-json-client-updated-1e1ce0d37ec3d4e4ca496fd99b46baa37ec6074b.jar
+C:\Users\tosve3\AndroidstudioProjects\SFTestApplication\app\build\intermediates\pre-dexed\Production\release\robotium-solo-5.2.1-8b3859e7ee489bfca6512faf11c5076d9b1487a2.jar
+C:\Users\tosve3\AndroidstudioProjects\SFTestApplication\app\build\intermediates\pre-dexed\Production\release\jackson-all-1.9.11-75528d518e4dbc20f3990576a54b0a02b6d6fb81.jar

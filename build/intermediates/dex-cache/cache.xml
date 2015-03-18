@@ -16,18 +16,18 @@
         <dex dex="C:\Users\tosve3\AndroidstudioProjects\SFBioTest\app\build\intermediates\pre-dexed\release\SF Bio-json-client-updated-2fca946d4349dbb57d497135e51821cb56a7a653.jar" />
     </item>
     <item
-        jar="C:\Users\tosve3\.gradle\caches\modules-2\files-2.1\com.jayway.android.robotium\robotium-solo\5.2.1\56ab8d87d966a067ee3795ee137fbd51b6581ec9\robotium-solo-5.2.1.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="56ab8d87d966a067ee3795ee137fbd51b6581ec9">
-        <dex dex="C:\Users\tosve3\AndroidstudioProjects\SFBioTest\app\build\intermediates\pre-dexed\release\robotium-solo-5.2.1-8b3859e7ee489bfca6512faf11c5076d9b1487a2.jar" />
-    </item>
-    <item
         jar="C:\Users\tosve3\AndroidstudioProjects\SFTestApplication\app\libs\jackson-all-1.9.11.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="62246d59c8188052433b28c5fbd50e4e71804f26">
         <dex dex="C:\Users\tosve3\AndroidstudioProjects\SFTestApplication\app\build\intermediates\pre-dexed\Accept\release\jackson-all-1.9.11-75528d518e4dbc20f3990576a54b0a02b6d6fb81.jar" />
+    </item>
+    <item
+        jar="C:\Users\tosve3\.gradle\caches\modules-2\files-2.1\com.jayway.android.robotium\robotium-solo\5.2.1\56ab8d87d966a067ee3795ee137fbd51b6581ec9\robotium-solo-5.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="56ab8d87d966a067ee3795ee137fbd51b6581ec9">
+        <dex dex="C:\Users\tosve3\AndroidstudioProjects\SFBioTest\app\build\intermediates\pre-dexed\release\robotium-solo-5.2.1-8b3859e7ee489bfca6512faf11c5076d9b1487a2.jar" />
     </item>
     <item
         jar="C:\Users\tosve3\AndroidstudioProjects\SFBioTest\app\libs\jackson-all-1.9.11.jar"
