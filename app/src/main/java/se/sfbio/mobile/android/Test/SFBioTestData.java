@@ -162,10 +162,10 @@ public class SFBioTestData {
     public void initData() throws IOException {
 
         // Read all cities from database. This only reads the "name" and "id" of the cities.
-        //initCities();
+        initCities();
 
         // Read the toplist for every city that is considered needed.
-        initToplists();
+        //initToplists();
 
         // Read the theatre list for every city that is considered needed.
         //initTheatreLists();
