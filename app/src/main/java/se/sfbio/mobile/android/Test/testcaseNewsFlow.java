@@ -13,7 +13,7 @@ public class testcaseNewsFlow extends SFBioTestcase {
         waitForApplicationToStart();
         goToNyheterTab();
         solo.scrollToTop();
-        checkItemsInListFromArray(Nyheter);
+        checkItemsInListFromArray(Nyheter, "Föregående", 10);
         reportSuccess();
     }
 

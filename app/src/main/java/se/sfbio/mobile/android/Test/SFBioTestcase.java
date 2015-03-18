@@ -618,6 +618,21 @@ public class SFBioTestcase extends ActivityInstrumentationTestCase2 implements S
         }
     }
 
+    public void checkItemsInListFromArray(final ArrayList<String> list, String s, int t) {
+        logging("Size of list is " + list.size());
+        for (int i = 0; i < t; i++) {
+            solo.scrollToTop();
+            logging("Now searching for " + list.get(i));
+            loadView(android.widget.ImageView.class, 6, DEFAULT_NUMBER_OF_TRIES_WAITING_FOR_VIEW, "Timed out when waiting for link list page to load.");
+            searchAndReport(searchTextCaseInsensitive(list.get(i)), list.get(i) + " was successfully found.", list.get(i) + " was not found inte the list.");
+            clickOnTextCaseInsensitive(list.get(i));
+            loadView(android.widget.ScrollView.class, 1, DEFAULT_NUMBER_OF_TRIES_WAITING_FOR_VIEW, "The links page did not load fast enough.");
+            //To check that the link we are in is for the correct movie
+            searchTextCaseInsensitive(s, true);
+            searchAndReport(searchTextCaseInsensitive(list.get(i)), "The link " + list.get(i) + " was correct", "The link " + list.get(i) + " could not be found.");
+            solo.goBack();
+        }
+    }
     /**
      * Clicks on a button with the specified String. Does not take into account upper or lower case.
      * This is the same as calling solo.clickOnText(text), but matches regardless of case.
@@ -650,6 +665,6 @@ public class SFBioTestcase extends ActivityInstrumentationTestCase2 implements S
      * @return True if the String was found.
      */
     protected boolean searchTextCaseInsensitive(String text, boolean onlyVisible) {
-        return solo.searchText("(?i)" + text, onlyVisible);
+        return solo.searchText("(?i)" + text,onlyVisible );
     }
 }

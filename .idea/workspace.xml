@@ -50,23 +50,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SFBioTestcase.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SFBioTestcase.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/se/sfbio/mobile/android/Test/SFBioTestcase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5012346" vertical-offset="8468" max-vertical-offset="11135">
-              <caret line="524" column="8" selection-start-line="524" selection-start-column="8" selection-end-line="524" selection-end-column="8" />
+            <state vertical-scroll-proportion="-3.4285715" vertical-offset="10410" max-vertical-offset="11390">
+              <caret line="622" column="37" selection-start-line="622" selection-start-column="37" selection-end-line="622" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#564#593#0" expanded="true" />
+                <element signature="e#2101#2109#0" expanded="true" />
+                <element signature="e#4431#4461#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testcaseNewsFlow.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="testcaseNewsFlow.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/se/sfbio/mobile/android/Test/testcaseNewsFlow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.2596945" vertical-offset="0" max-vertical-offset="851">
+              <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -1838,9 +1841,9 @@
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/se/sfbio/mobile/android/Test/SFBioTestData.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/se/sfbio/mobile/android/Test/SFBioRESTClient.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/se/sfbio/mobile/android/Test/testcaseNewsFlow.java" />
         <option value="$PROJECT_DIR$/app/src/Production/java/se/sfbop/mobile/andoid/Test/Production/testcaseReservTicket.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/se/sfbio/mobile/android/Test/SFBioTestcase.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/se/sfbio/mobile/android/Test/testcaseNewsFlow.java" />
       </list>
     </option>
   </component>
@@ -2603,6 +2606,9 @@
           <caret line="49" column="90" selection-start-line="49" selection-start-column="90" selection-end-line="49" selection-end-column="90" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#564#593#0" expanded="true" />
+            <element signature="e#2101#2109#0" expanded="true" />
+            <element signature="e#4431#4461#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2674,6 +2680,9 @@
           <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#564#593#0" expanded="true" />
+            <element signature="e#2101#2109#0" expanded="true" />
+            <element signature="e#4431#4461#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2940,14 +2949,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/sfbio/mobile/android/Test/testcaseNewsFlow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/se/sfbio/mobile/android/Test/SFBioTestData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.928571" vertical-offset="2016" max-vertical-offset="10693">
@@ -2958,11 +2959,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/se/sfbio/mobile/android/Test/SFBioTestcase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5012346" vertical-offset="8468" max-vertical-offset="11135">
-          <caret line="524" column="8" selection-start-line="524" selection-start-column="8" selection-end-line="524" selection-end-column="8" />
+        <state vertical-scroll-proportion="-3.4285715" vertical-offset="10410" max-vertical-offset="11390">
+          <caret line="622" column="37" selection-start-line="622" selection-start-column="37" selection-end-line="622" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#564#593#0" expanded="true" />
+            <element signature="e#2101#2109#0" expanded="true" />
+            <element signature="e#4431#4461#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/sfbio/mobile/android/Test/testcaseNewsFlow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2596945" vertical-offset="0" max-vertical-offset="851">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
