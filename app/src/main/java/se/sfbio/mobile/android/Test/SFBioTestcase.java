@@ -140,8 +140,8 @@ public class SFBioTestcase extends ActivityInstrumentationTestCase2 implements S
         }
 
         // Put data in ArrayLists.
-        cities = data.getCities();
-        city = cities.get(0);
+        //cities = data.getCities();
+        //city = cities.get(0);
         //Nyheter = data.getNewsHeadlines();
         //bannerTitles = city.getPromotedMovies();
 
