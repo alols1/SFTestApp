@@ -525,7 +525,7 @@ public class SFBioTestcase extends ActivityInstrumentationTestCase2 implements S
             solo.clickOnView(solo.getView("se.sfbio.mobile.android:id/button_close_add", 0));
             solo.sleep(2000);
         }
-        if (solo.searchText("Stockholm", 0, false) && solo.searchText("Malmö", 0, false)) {
+        if (solo.searchText("Välj stad", 0, false)) {
             solo.clickInList(1);
         }
     }
