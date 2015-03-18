@@ -526,7 +526,7 @@ public class SFBioTestcase extends ActivityInstrumentationTestCase2 implements S
         if (doesItemExistWithoutAssert("se.sfbio.mobile.android:id/button_close_add")) {
             logging("Found an add that needs to be close.");
             solo.clickOnView(solo.getView("se.sfbio.mobile.android:id/button_close_add", 0));
-            solo.sleep(10001);
+            solo.sleep(2000);
         }
 
     }
