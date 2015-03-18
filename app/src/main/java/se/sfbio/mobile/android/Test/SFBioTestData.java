@@ -165,7 +165,7 @@ public class SFBioTestData {
         //initCities();
 
         // Read the toplist for every city that is considered needed.
-        //initToplists();
+        initToplists();
 
         // Read the theatre list for every city that is considered needed.
         //initTheatreLists();
