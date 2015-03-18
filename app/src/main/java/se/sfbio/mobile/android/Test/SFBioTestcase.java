@@ -519,12 +519,12 @@ public class SFBioTestcase extends ActivityInstrumentationTestCase2 implements S
     public void waitForApplicationToStart() {
         logging("Starting application");
         solo.sleep(5000);
-        loadView(android.widget.RelativeLayout.class, 2, DEFAULT_NUMBER_OF_TRIES_WAITING_FOR_VIEW, "Took too long to load start screen.");
-        if (doesItemExistWithoutAssert("se.sfbio.mobile.android:id/button_close_add")) {
-            logging("Found an add that needs to be close.");
-            solo.clickOnView(solo.getView("se.sfbio.mobile.android:id/button_close_add", 0));
-            solo.sleep(10001);
-        }
+        //loadView(android.widget.RelativeLayout.class, 2, DEFAULT_NUMBER_OF_TRIES_WAITING_FOR_VIEW, "Took too long to load start screen.");
+        //if (doesItemExistWithoutAssert("se.sfbio.mobile.android:id/button_close_add")) {
+            //logging("Found an add that needs to be close.");
+           // solo.clickOnView(solo.getView("se.sfbio.mobile.android:id/button_close_add", 0));
+         //   solo.sleep(10001);
+       // }
 
     }
 
