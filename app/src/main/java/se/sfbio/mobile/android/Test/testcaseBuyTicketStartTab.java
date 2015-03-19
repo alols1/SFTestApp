@@ -14,7 +14,6 @@ public class testcaseBuyTicketStartTab extends se.sfbio.mobile.android.Test.Tick
     public void testBuyTicketStartTab() {
         waitForApplicationToStart();
         changeCityRandom();
-        assertTrue("Planned Assert.", false);
         goToTicketsTab();
         goToUnderTabBiografer();
         getCinemaAndTicketFromBiograferUnderTab(8);
