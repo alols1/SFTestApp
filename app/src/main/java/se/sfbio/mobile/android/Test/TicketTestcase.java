@@ -526,6 +526,7 @@ public abstract class TicketTestcase extends SFBioTestcase {
         }
         solo.sleep(5000);
         searchAndReport(!searchTextCaseInsensitive("Kortnumret är ej giltigt"), "The given bioklubbskort were valid.", "There was one bioklubbskort which was not valid.");
+        searchAndReport(!searchTextCaseInsensitive("Kortet finns inte"), "The given bioklubbskort were valid.", "There was one bioklubbskort which was not valid.");
         doesItemExist("se.sfbio.mobile.android:id/membership_done_button");
         logging("Now clicking on KLAR button");
         solo.clickOnView(solo.getView("se.sfbio.mobile.android:id/membership_done_button"));
