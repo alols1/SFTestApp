@@ -21,7 +21,7 @@ public class testcaseReservTicket extends TicketTestcase {
 	    	}
     	}
     	firstReservTicketScreenOperations();
-    	//confirmReservationAndCheckItIsDone();
+        abortReservationAtConfirmationScreen();
 		reportSuccess();
     }
 			
