@@ -60,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testcaseReservTicket.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="testcaseReservTicket.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/Production/java/se/sfbio/mobile/android/Test/Production/testcaseReservTicket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49941245" vertical-offset="0" max-vertical-offset="851">
-              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+              <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -115,11 +115,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TicketTestcase.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="TicketTestcase.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/se/sfbio/mobile/android/Test/TicketTestcase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="11366" max-vertical-offset="12716">
-              <caret line="700" column="16" selection-start-line="700" selection-start-column="16" selection-end-line="700" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.41408116" vertical-offset="11672" max-vertical-offset="12886">
+              <caret line="722" column="23" selection-start-line="722" selection-start-column="23" selection-end-line="722" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -1847,7 +1847,6 @@
         <option value="$PROJECT_DIR$/app/src/Production/java/se/sfbop/mobile/andoid/Test/Production/testcaseBuyTicketStartTab.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/Accept/java/sf/sfbio/mobile/android/Test/Accept/testcaseStartPageLinks.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/se/sfbio/mobile/android/Test/TicketTestcase.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/se/sfbio/mobile/android/Test/SFBioTestData.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/se/sfbio/mobile/android/Test/SFBioRESTClient.java" />
@@ -1856,6 +1855,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/se/sfbio/mobile/android/Test/SFBioTestcase.java" />
         <option value="$PROJECT_DIR$/app/src/androidTest/java/se/sfbio/mobile/android/Test/testcaseReservTicket.java" />
         <option value="$PROJECT_DIR$/app/src/Production/java/se/sfbio/mobile/android/Test/Production/testcaseReservTicket.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/se/sfbio/mobile/android/Test/TicketTestcase.java" />
       </list>
     </option>
   </component>
@@ -2877,22 +2877,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/sfbio/mobile/android/Test/TicketTestcase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="11366" max-vertical-offset="12716">
-          <caret line="700" column="16" selection-start-line="700" selection-start-column="16" selection-end-line="700" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jayway.android.robotium/robotium-solo/5.2.1/d006b2b28f6107c556c590b799fd495683456eab/robotium-solo-5.2.1-sources.jar!/com/robotium/solo/Solo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33254993" vertical-offset="24588" max-vertical-offset="43435">
-          <caret line="1550" column="16" selection-start-line="1550" selection-start-column="16" selection-end-line="1550" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/se/sfbio/mobile/android/Test/testcaseCarouselBannerSwipeCase1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
@@ -2966,8 +2950,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/Production/java/se/sfbio/mobile/android/Test/Production/testcaseReservTicket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49941245" vertical-offset="0" max-vertical-offset="851">
-          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jayway.android.robotium/robotium-solo/5.2.1/d006b2b28f6107c556c590b799fd495683456eab/robotium-solo-5.2.1-sources.jar!/com/robotium/solo/Solo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27262044" vertical-offset="29331" max-vertical-offset="43401">
+          <caret line="1832" column="16" selection-start-line="1832" selection-start-column="16" selection-end-line="1832" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/sfbio/mobile/android/Test/TicketTestcase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41408116" vertical-offset="11672" max-vertical-offset="12886">
+          <caret line="722" column="23" selection-start-line="722" selection-start-column="23" selection-end-line="722" selection-end-column="23" />
           <folding />
         </state>
       </provider>

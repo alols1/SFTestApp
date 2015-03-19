@@ -714,12 +714,22 @@ public abstract class TicketTestcase extends SFBioTestcase {
         solo.clickOnView(solo.getView("se.sfbio.mobile.android:id/done_red_button", 0));
     }
 
+    public void abortReservationAtConfirmationScreen() {
+        if (!solo.waitForView(android.widget.Button.class, 2, timeout)) {
+            reportError("Did not load the confirm reservation of ticket screen.");
+        }
+        searchAndReport(searchTextCaseInsensitive("Vill du boka"), "Application went to the confirmation of reservation screen.", "Was not able to confirm the reserved ticket.");
+        searchAndReport(searchTextCaseInsensitive("Avbryt"), "Found the Avbryt button at the ticket reservation confirmation screen", "Did not find the Avbryt button at the ticket reservation confirmation screen");
+        solo.sleep(2000);
+        clickOnTextCaseInsensitive("Avbryt");
+    }
+
     /**
      * Checks if tickets were booked successfully.
      */
     public void confirmReservationAndCheckItIsDone() {
         if (!solo.waitForView(android.widget.Button.class, 2, timeout)) {
-            assertTrue("Did not load the confirm reservation of ticket screen.", false);
+            reportError("Did not load the confirm reservation of ticket screen.");
         }
         solo.sleep(2000);
         clickOnTextCaseInsensitive("Ja, tack");
