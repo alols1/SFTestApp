@@ -12,6 +12,7 @@ public class testcaseTopMenu extends SFBioTestcase {
     public void testTopMenu() {
     	waitForApplicationToStart();
     	//For every top menu item, click on it and verify that the application is in the correct tab
+        // We do this 3 times for each tab.
     	for (int i = 0; i < 3; i++){
     		goToTicketsTab();
     		goToGPSTab();
