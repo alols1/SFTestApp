@@ -518,7 +518,7 @@ public class SFBioTestcase extends ActivityInstrumentationTestCase2 implements S
      */
     public void waitForApplicationToStart() {
         logging("Starting application");
-        solo.sleep(10000);
+        solo.sleep(20000);
         if (solo.searchText("Välj stad", 0, false)){
             solo.clickOnText("Stockholm");
         }
