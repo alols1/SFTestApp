@@ -61,8 +61,8 @@
       <file leaf-file-name="SFBioTestcase.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/se/sfbio/mobile/android/Test/SFBioTestcase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4802469" vertical-offset="8196" max-vertical-offset="11084">
-              <caret line="525" column="30" selection-start-line="525" selection-start-column="30" selection-end-line="525" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.56419754" vertical-offset="8196" max-vertical-offset="11084">
+              <caret line="529" column="9" selection-start-line="529" selection-start-column="9" selection-end-line="529" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -2847,14 +2847,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/Accept/java/sf/sfbio/mobile/android/Test/Accept/testcaseStartPageLinks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/se/sfbio/mobile/android/Test/testcaseCarouselBannerSwipeCase1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
@@ -2972,8 +2964,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/se/sfbio/mobile/android/Test/SFBioTestcase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4802469" vertical-offset="8196" max-vertical-offset="11084">
-          <caret line="525" column="30" selection-start-line="525" selection-start-column="30" selection-end-line="525" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.56419754" vertical-offset="8196" max-vertical-offset="11084">
+          <caret line="529" column="9" selection-start-line="529" selection-start-column="9" selection-end-line="529" selection-end-column="9" />
           <folding />
         </state>
       </provider>
