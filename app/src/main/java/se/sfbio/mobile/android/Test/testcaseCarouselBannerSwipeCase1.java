@@ -15,6 +15,7 @@ public class testcaseCarouselBannerSwipeCase1 extends SFBioTestcase {
 	//Methods
 	public void testCarouselBannerSwipeCase1() {
     	waitForApplicationToStart();
+        reportError("We made this on purpose.");
     	changeCityRandom();
     	goToStatTab();
 //    	doesItemExist("se.sfbio.mobile.android:id/carousel");
