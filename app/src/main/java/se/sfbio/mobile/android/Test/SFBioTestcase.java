@@ -227,7 +227,7 @@ public class SFBioTestcase extends ActivityInstrumentationTestCase2 implements S
      * This function is used to report errors. It will first logg that an error has occurred, then
      * call the takeScreenshot function and finally assert. Is used when a defenitive error has been seen.
      *
-     * @param String to be logged.
+     * @param s String to be logged.
      */
     protected void reportError(final String s) {
         logging("An error has occured");
@@ -279,8 +279,10 @@ public class SFBioTestcase extends ActivityInstrumentationTestCase2 implements S
                 logging("This is try number " + i + " that we have made so far.");
                 //The below checks should search for a way to reconnect if there is any
                 if (searchTextCaseInsensitive(BUTTON_TEXT_OK)) {
+                    logging("Found a OK button and will press it.");
                     clickOnTextCaseInsensitive(BUTTON_TEXT_OK);
                 } else if (searchTextCaseInsensitive(BUTTON_TEXT_TRY_AGAIN)) {
+                    logging("Found a TRY AGAIN button and will press it.");
                     clickOnTextCaseInsensitive(BUTTON_TEXT_TRY_AGAIN);
                 }
                 waitForProgressBar();
@@ -401,7 +403,7 @@ public class SFBioTestcase extends ActivityInstrumentationTestCase2 implements S
     /**
      * Will change city within the application.
      *
-     * @param City object which it should be changed to.
+     * @param city City object which it should be changed to.
      */
     public void changeCity(SFBioTestData.City city) {
         this.city = city;
@@ -533,10 +535,10 @@ public class SFBioTestcase extends ActivityInstrumentationTestCase2 implements S
     }
 
     /**
+     *
      * Check if the view resource id name exist in the current activity views.
      * Otherwise there is an error reported.
-     *
-     * @param Resource id of the object
+     * @param name Resource id of the object
      * @return True if object exists.l
      */
     public boolean doesItemExist(final String name) {
@@ -582,7 +584,7 @@ public class SFBioTestcase extends ActivityInstrumentationTestCase2 implements S
     /**
      * Checks that all the items in the provided array are present in a list on the page where we currently are.
      * For example that all the top movies are actually in the top movie list. This method is for the start page where
-     * there are displayed movies on top, which needs to be scrolled to the correct scrren position in  order to work.
+     * there are displayed movies on top, which needs to be scrolled to the correct screen position in  order to work.
      */
     public void checkItemsInListFromArrayStartPageLinks(final ArrayList<String> list) {
         logging("Size of list is " + list.size());
@@ -595,6 +597,7 @@ public class SFBioTestcase extends ActivityInstrumentationTestCase2 implements S
             clickOnTextCaseInsensitive(list.get(i));
             loadView(android.widget.ScrollView.class, 1, DEFAULT_NUMBER_OF_TRIES_WAITING_FOR_VIEW, "The links page did not load fast enough.");
             //To check that the link we are in is for the correct movie
+            searchAndReport(searchTextCaseInsensitive("SE TRAILER"), "There was a SE TRAILER button so we were linked to a movie page.", "There was not a SE TRAILER button so we have not been directed to a movie page.");
             searchAndReport(searchTextCaseInsensitive(list.get(i)), "The link " + list.get(i) + " was correct", "The link " + list.get(i) + " could not be found.");
             solo.goBack();
         }
@@ -635,12 +638,13 @@ public class SFBioTestcase extends ActivityInstrumentationTestCase2 implements S
         }
     }
     /**
+     *
      * Clicks on a button with the specified String. Does not take into account upper or lower case.
      * This is the same as calling solo.clickOnText(text), but matches regardless of case.
      *
      * @param text The text String to search for. This should contain no special characters.
      */
-    protected void clickOnTextCaseInsensitive(String text) {
+     protected void clickOnTextCaseInsensitive(String text) {
         solo.clickOnText("(?i)" + text);
     }
 

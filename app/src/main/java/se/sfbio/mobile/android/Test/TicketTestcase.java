@@ -33,7 +33,7 @@ public abstract class TicketTestcase extends SFBioTestcase {
      * This method will randomly select a movie and then find an available show for which seats are choosen.
      * If there are any problems in the selection process, the process will start over.
      *
-     * @param The number of seats that should be booked
+     * @param numberOfSeats The number of seats that should be booked
      */
     public void getCinemaAndTicketFromTicketsTab(int numberOfSeats) {
         int try_again = 0; // <--- This variable keeps track on how many times the application has failed to select a movie, cinema or show
@@ -82,7 +82,7 @@ public abstract class TicketTestcase extends SFBioTestcase {
      * This method will randomly select a movie and then find an available show for which seats are choosen.
      * If there are any problems in the selection process, the process will start over.
      *
-     * @param The number of seats that should be booked
+     * @param numberOfSeats The number of seats that should be booked
      */
     @SuppressLint("DefaultLocale")
     public void getCinemaAndTicketFromStartTab(int numberOfSeats) {
@@ -143,7 +143,7 @@ public abstract class TicketTestcase extends SFBioTestcase {
      * This method will randomly select a movie and then find an available show for which seats are choosen.
      * If there are any problems in the selection process, the process will start over.
      *
-     * @param The number of seats that should be booked
+     * @param numberOfSeats The number of seats that should be booked
      */
     public void getCinemaAndTicketFromBiograferUnderTab(int numberOfSeats) {
         int try_again = 0; // <--- This variable keeps track on how many times the application has failed to select a movie, cinema or show
@@ -277,7 +277,7 @@ public abstract class TicketTestcase extends SFBioTestcase {
     /**
      * This method returns the day (idag, imorgon, lördag etc), date and month for which the available shows are displayed.
      *
-     * @param Either day, date or month
+     * @param s Either day, date or month
      * @return The current weekday (or idag and imorgon), date or year.
      */
     public String getDateDisplayedByApp(String s) {
@@ -326,7 +326,7 @@ public abstract class TicketTestcase extends SFBioTestcase {
      * First it will check if the date displayed is ok and depending on the outcome go on, change it or assert.
      * It will then click on the available shows in a random fashion until it finds a show that is available.
      *
-     * @param Should the list of available shows be scrolled to the bottom?
+     * @param scroll Should the list of available shows be scrolled to the bottom?
      * @return IF cinema was found or not.
      */
     public boolean chooseFirstAvailableShowinAvailableShows(boolean scroll) {
@@ -381,7 +381,7 @@ public abstract class TicketTestcase extends SFBioTestcase {
      * In the screen where the user is asked to choose a seat to sit in, this function will choose two
      * available seats if possible.
      *
-     * @param The number of seats to be booked.
+     * @param numberOfSeats The number of seats to be booked.
      * @return True if seats were successfully booked, otherwise false.
      */
     public boolean choosePlaceToSit(int numberOfSeats) {
@@ -500,8 +500,8 @@ public abstract class TicketTestcase extends SFBioTestcase {
     /**
      * Will fill in numberOfBioklubbskort (up to 5). The card numbers will be randomly choosen and the function will check that they are accepted.
      *
-     * @param The   number of seats to be booked.
-     * @param Numer of bioklubbskort to be used.
+     * @param numberOfBioklubbskort Numer of bioklubbskort to be used.
+     * @param numberOfSeats The number of seats to be booked.
      */
     public void fillInBioklubbsKort(int numberOfSeats, int numberOfBioklubbskort) {
         logging("Will put input bioklubbkort information and check that they are accepted.");
@@ -604,8 +604,8 @@ public abstract class TicketTestcase extends SFBioTestcase {
      * Fills in the credit card information for purchasing a ticket. Credit card number and CCV code
      * needs to be provided when calling this function.
      *
-     * @param Credit card number.
-     * @param CCV    code to the credit card.
+     * @param cardNo Credit card number.
+     * @param ccv CCV    code to the credit card.
      */
     public void fillCreditCardInfo(String cardNo, String ccv) {
         loadView(android.webkit.WebView.class, 1, DEFAULT_NUMBER_OF_TRIES_WAITING_FOR_VIEW, "Did not load the web view  item to fill in credit card.");
@@ -669,9 +669,10 @@ public abstract class TicketTestcase extends SFBioTestcase {
     }
 
     /**
+     *
      * Will confirm a reservation of selected seats.
      *
-     * @param Number of seats to be booked.
+     * @param numberOfSeats Number of seats to be booked.
      * @return Was a seat booked?
      */
     public boolean confirmSeatWhenReserving(int numberOfSeats) {
