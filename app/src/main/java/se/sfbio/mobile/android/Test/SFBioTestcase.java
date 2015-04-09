@@ -366,7 +366,7 @@ public class SFBioTestcase extends ActivityInstrumentationTestCase2 implements S
         }
 
         String filename =
-                "SFBioScreenshot_" +
+                "TakenScreenshot_" +
                         getTimestampForScreenshotFileName() +
                         "_" +
                         this.getClass().getSimpleName() + // <-- Name of Testcase class e.g. "testcaseTicketsTheathers"
