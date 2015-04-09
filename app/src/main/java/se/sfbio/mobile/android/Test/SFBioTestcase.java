@@ -144,6 +144,10 @@ public class SFBioTestcase extends ActivityInstrumentationTestCase2 implements S
         Nyheter = data.getNewsHeadlines();
         bannerTitles = city.getPromotedMovies();
 
+
+
+
+
 //    		String cityName = city.getName();
 //    		logging(cityName);
 //    		    		SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd");
@@ -384,7 +388,7 @@ public class SFBioTestcase extends ActivityInstrumentationTestCase2 implements S
         // Write to the file, and close the file stream when done.
         FileOutputStream outputstream;
         try {
-            outputstream = new FileOutputStream(file);
+           outputstream = new FileOutputStream(file);
         } catch (IOException e) {
             throw new IOException("Failed to open output stream for screenshot: " + e.toString());
         }
