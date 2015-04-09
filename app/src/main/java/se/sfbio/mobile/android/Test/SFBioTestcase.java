@@ -47,7 +47,7 @@ public class SFBioTestcase extends ActivityInstrumentationTestCase2 implements S
     protected static final int nbrOfTriesFindingAvailableMovie = 5;
     protected static final int DEFAULT_NUMBER_OF_TRIES_WAITING_FOR_VIEW = 3;
 
-    protected static final String FILE_NAME_INIFILE = "/data/local/tmp/SFBio_Test_ini.txt";
+    protected static final String FILE_NAME_INIFILE = "/data/local/tmp/Test_ini.txt";
     protected static final String FILE_NAME_SF_TOPLIST_DATA = "/data/local/tmp/SF_toplist.txt";
     protected static final String FILE_NAME_TESTCASE_LOG = "/data/local/tmp/logg.txt";
 
