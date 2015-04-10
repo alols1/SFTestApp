@@ -215,15 +215,16 @@ public class SFBioTestcase extends ActivityInstrumentationTestCase2 implements S
             logging(s);
         }
         if (!b) {
-            logging("An error has occured");
-            logging(f);
-            reportEndOfTest();
-            try {
-                takeScreenshot();
-            } catch (IOException e) {
-                logging(e.toString());
-            }
-            assertTrue("Error! " + f, false);
+            reportError(f);
+//            logging("An error has occured");
+//            logging(f);
+//            reportEndOfTest();
+//            try {
+//                takeScreenshot();
+//            } catch (IOException e) {
+//                logging(e.toString());
+//            }
+//            assertTrue("Error! " + f, false);
         }
     }
 
@@ -242,7 +243,7 @@ public class SFBioTestcase extends ActivityInstrumentationTestCase2 implements S
         } catch (IOException e) {
             logging(e.toString());
         }
-        assertTrue(s, false);
+        assertTrue("Error! " + s, false);
     }
 
     /**
